@@ -1,0 +1,28 @@
+
+{
+  "name": "simon-tech-bot",
+  "version": "1.0.0",
+  "description": "SIMON TECH BOT - Multi-Device WhatsApp Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "simon-tech",
+    "whatsapp-bot",
+    "baileys",
+    "multi-device"
+  ],
+  "author": "SIMON TECH",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "@hapi/boom": "^10.0.1",
+    "qrcode": "^1.5.4",
+    "axios": "^1.7.9"
+  }
+}
